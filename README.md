@@ -4,11 +4,14 @@
 
 Each folder in this repo is a _scroll of wisdom_, bursting with hands-on projects and exercises straight from the legendary freeCodeCamp curriculum! 📜 From pixel-perfect layouts to jaw-dropping interactivity, my journey is filled with battles won and skills forged in the fires of code! 🔥
 
-## 🐉 Featured Quest: The CodePen Chronicle
+## 🐉 Featured Quests: The CodePen Chronicles
 
-Witness my latest triumph:  
+Witness my latest triumphs:  
 🎮 **[Interactive Web Magic](https://codepen.io/ajy_ocean/pen/pvjEPLJ)**  
-A dazzling project where I channel my inner code-sensei to create a masterpiece of web sorcery! 🪄 Explore this creation and see my powers in action!
+A dazzling project where I channel my inner code-sensei to create a masterpiece of web sorcery! 🪄
+
+🌟 **[Dynamic Web Saga](https://codepen.io/ajy_ocean/full/jEbMwvw)**  
+An electrifying creation showcasing my skills in weaving responsive designs and dynamic features! ⚡ Dive into this adventure and feel the power of code!
 
 ## 🌠 Why This Repo is Legendary
 
