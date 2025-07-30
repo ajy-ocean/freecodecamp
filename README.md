@@ -13,6 +13,9 @@ A dazzling project where I channel my inner code-sensei to create a masterpiece 
 🌟 **[Dynamic Web Saga](https://codepen.io/ajy_ocean/full/jEbMwvw)**  
 An electrifying creation showcasing my skills in weaving responsive designs and dynamic features! ⚡ Dive into this adventure and feel the power of code!
 
+🎤 **[Adele Survey Symphony](https://codepen.io/ajy_ocean/full/KwdaPRL)**  
+A soulful survey form of Adele, crafted with her emotional aesthetic! This survey form sings with responsive design, heartfelt questions, and a visual melody of images that capture her iconic vibe! 🎵💖
+
 ## 🌠 Why This Repo is Legendary
 
 - **Epic Projects**: Every folder tells a tale of creativity and problem-solving! 🏯
