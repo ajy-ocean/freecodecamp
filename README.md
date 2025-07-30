@@ -1,29 +1,38 @@
-# 🌌 My Epic freeCodeCamp Web Dev Quest! ⚡️💻
+# 🌸 Code NinjaのEpic freeCodeCamp Web Dev Quest! ⚡️💻
 
-🎉 **Konnichiwa, Code Shinobi!** Welcome to my _freeCodeCamp Practice Repository_, where I embark on a thrilling anime-style adventure to master the art of web development! 🌟 Armed with the power of **HTML**, **CSS**, **JavaScript**, and more, I’m slicing through challenges and crafting epic, responsive, and dynamic web applications like a true coding samurai! 🗡️✨
+🎉 **Konnichiwa, Code Shinobi!** 私の *freeCodeCamp Practice Repository* へようこそ！This is where I embark on an anime-inspired 冒険 to master the art of web development! 🌟 Wielding the powers of **HTML**, **CSS**, **JavaScript**, and more, I’m slicing through challenges like a true コードの侍, crafting epic, responsive, and dynamic web apps! 🗡️✨
 
-Each folder in this repo is a _scroll of wisdom_, bursting with hands-on projects and exercises straight from the legendary freeCodeCamp curriculum! 📜 From pixel-perfect layouts to jaw-dropping interactivity, my journey is filled with battles won and skills forged in the fires of code! 🔥
+Each folder in this repo is a *ninja no scroll* packed with hands-on プロジェクト and exercises from the legendary freeCodeCamp curriculum! 📜 From pixel-perfect layouts to mind-blowing interactivity, my 旅 is a saga of battles won and skills forged in the 炎 of code! 🔥
 
 ## 🐉 Featured Quests: The CodePen Chronicles
 
-Witness my latest triumphs:  
-🎮 **[Interactive Web Magic](https://codepen.io/ajy_ocean/full/pvjEPLJ)**  
-A dazzling project where I channel my inner code-sensei to create a masterpiece of web sorcery! 🪄
+Check out my latest 勝利:  
+🎮 **[Cat Photo Ninja App](https://codepen.io/ajy_ocean/full/pvjEPLJ)**  
+HTML tags give webpages their 構造, letting you add 写真, buttons, and more! In this quest, I built a *neko* photo app, mastering common HTML tags and unleashing my inner コード仙人! 🪄 *Nyan-pasu!*
 
-🌟 **[Dynamic Web Saga](https://codepen.io/ajy_ocean/full/jEbMwvw)**  
-An electrifying creation showcasing my skills in weaving responsive designs and dynamic features! ⚡ Dive into this adventure and feel the power of code!
+🍽️ **[Cafe Menu no Jutsu](https://codepen.io/ajy_ocean/full/jEbMwvw)**  
+CSS tells browsers how to style your webpage—色, fonts, sizes, you name it! I designed a カフェ menu page, weaving responsive designs and dynamic 機能 like a true web dev ninja! ⚡ Feel the コードの力!
 
-🎤 **[Adele Survey Symphony](https://codepen.io/ajy_ocean/full/KwdaPRL)**  
-A soulful survey form of Adele, crafted with her emotional aesthetic! This survey form sings with responsive design, heartfelt questions, and a visual melody of images that capture her iconic vibe! 🎵💖
+🎨 **[Color Marker Ninpou](https://codepen.io/ajy_ocean/full/KwdapqJ)**  
+Choosing epic 色 can level up your webpage’s aesthetic! I crafted a set of colored markers, learning how to set color values and pair them like an anime アーティスト’s palette! 🌈 *Kira-kira!*
+
+📝 **[Signup Form Hiden](https://codepen.io/ajy_ocean/full/EaVZjwV)**  
+HTML forms collect 情報 from your visitors. I built a signup page, mastering data control and styling with fresh CSS tools. This form is ready to 輝く! ✍️ *Let’s flow with the コード!*
+
+🖼️ **[Rothko-Style Art Technique](https://codepen.io/ajy_ocean/full/wBKgaWm)**  
+Every HTML element is a box with its own スペース and border—the Box Model! Using CSS, I created Rothko-style 長方形 art, blending creativity and precision like a master! 🎨 *Art no jutsu!*
+
+🎤 **[Adele’s Soulful Survey Saga](https://codepen.io/ajy_ocean/full/KwdaPRL)**  
+A required プロジェクト for my certification! I built a survey form to collect user データ, infused with Adele’s emotional aesthetic. With responsive デザイン, heartfelt 質問, and iconic visuals, this form sings! 🎵💖 *Hello from the other side!*
 
 ## 🌠 Why This Repo is Legendary
 
-- **Epic Projects**: Every folder tells a tale of creativity and problem-solving! 🏯
-- **Skill Evolution**: Watch my transformation from a coding genin to a web dev kage! 🥷
-- **Anime Vibes**: Infused with the spirit of adventure, passion, and a sprinkle of _kawaii_! 😺
+- **Epic Projects**: Each folder tells a tale of 創造性 and problem-solving! 🏯
+- **Skill Evolution**: Watch me transform from a coding 初心者 to a web dev kage! 🥷
+- **Anime Vibes**: Packed with 冒険心, passion, and a dash of *kawaii*! 😺
 
 ## 🚀 Join the Adventure!
 
-Dive into my repository, explore my projects, and cheer me on as I level up my web dev skills! 🌈 Got feedback or want to spar with code? Drop a comment or join me in this digital dojo! 🥋 Let’s code, create, and conquer the web together! 💪✨
+Dive into my repo, explore my プロジェクト, and cheer me on as I level up! 🌈 Got feedback or wanna spar with コード? Drop a comment or join me in this digital 道場! 🥋 Let’s code, create, and conquer the web together! 💪✨
 
-_Arigatou_ for visiting, and may your coding journey be as epic as a shonen showdown! 🐲⚔️
+*Arigatou* for stopping by! May your coding 旅 be as epic as a shonen showdown! 🐲⚔️
