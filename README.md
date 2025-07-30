@@ -7,7 +7,7 @@ Each folder in this repo is a _scroll of wisdom_, bursting with hands-on project
 ## 🐉 Featured Quests: The CodePen Chronicles
 
 Witness my latest triumphs:  
-🎮 **[Interactive Web Magic](https://codepen.io/ajy_ocean/pen/pvjEPLJ)**  
+🎮 **[Interactive Web Magic](https://codepen.io/ajy_ocean/full/pvjEPLJ)**  
 A dazzling project where I channel my inner code-sensei to create a masterpiece of web sorcery! 🪄
 
 🌟 **[Dynamic Web Saga](https://codepen.io/ajy_ocean/full/jEbMwvw)**  
