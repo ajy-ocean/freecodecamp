@@ -7,13 +7,13 @@ Each folder in this repo is a _scroll of wisdom_, bursting with hands-on project
 ## 🐉 Featured Quests: The CodePen Chronicles
 
 Witness my latest triumphs:  
-🎮 **[Interactive Web Magic](https://codepen.io/ajy_ocean/full/pvjEPLJ)**  
+🎮 **[Interactive Web Magic](https://codepen.io/ajy_ocean/full/pvjEPLJ){target=_blank}**  
 A dazzling project where I channel my inner code-sensei to create a masterpiece of web sorcery! 🪄
 
-🌟 **[Dynamic Web Saga](https://codepen.io/ajy_ocean/full/jEbMwvw)**  
+🌟 **[Dynamic Web Saga](https://codepen.io/ajy_ocean/full/jEbMwvw){target=_blank}**  
 An electrifying creation showcasing my skills in weaving responsive designs and dynamic features! ⚡ Dive into this adventure and feel the power of code!
 
-🎤 **[Adele Survey Symphony](https://codepen.io/ajy_ocean/full/KwdaPRL)**  
+🎤 **[Adele Survey Symphony](https://codepen.io/ajy_ocean/full/KwdaPRL){target=_blank}**  
 A soulful survey form of Adele, crafted with her emotional aesthetic! This survey form sings with responsive design, heartfelt questions, and a visual melody of images that capture her iconic vibe! 🎵💖
 
 ## 🌠 Why This Repo is Legendary
