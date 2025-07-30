@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Adele Song | Survey Form</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Google font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+            <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1000w,f_avif,q_auto:eco,dpr_2/rockcms/2022-07/adele-lc-main-220701-f34406.jpg"
+                alt="Adele Header Image" class="header-image">
+            <h1 id="title">Adele Fan Survey Form</h1>
+            <p id="description">Tell us about your love for Adele's music and personality!</p>
+        </header>
+        <main id="main-content">
+            <div class="form-container">
+                <form action="#" method="POST" id="survey-form" autocomplete="on">
+                    <div class="standard-info">
+                        <fieldset class="field-info">
+                            <legend>Personal Information</legend>
+                            <div class="row-standard">
+                                <label for="name" id="name-label">* Name:</label>
+                                <input type="text" name="name" id="name" class="form-control"
+                                    placeholder="Enter your name" required>
+                            </div>
+                            <div class="row-standard">
+                                <label for="email" id="email-label">* Email:</label>
+                                <input type="email" name="email" id="email" class="form-control"
+                                    placeholder="Enter your email" required>
+                            </div>
+                            <div class="row-standard">
+                                <label for="age" id="number-label">Age:</label>
+                                <input type="number" name="age" id="number" class="form-control"
+                                    placeholder="Enter your age" min="1" max="99">
+                            </div>
+                            <div class="row-standard">
+                                <label for="gender">Gender:</label>
+                                <select name="gender" id="dropdown">
+                                    <option disabled selected value="#">Select an option</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="prefer_not_to_say">Prefer Not To Say</option>
+                                </select>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="adele-song-album">
+                        <fieldset class="field-fav">
+                            <legend>Pick Your Favorite Song & Album</legend>
+                            <div class="row-fav">
+                                <div class="labels">
+                                    <label for="dropdown-song" id="dropdown-song-label">Song:</label>
+                                </div>
+                                <div class="selection">
+                                    <select name="fav-song" id="dropdown-song">
+                                        <option disabled selected value>Select an option</option>
+                                        <option value="skyfall">Skyfall</option>
+                                        <option value="set_fire_to_the_rain">Set Fire To The Rain</option>
+                                        <option value="lovesong">Lovesong</option>
+                                        <option value="hello">Hello</option>
+                                        <option value="when_we_were_young">When We Were Young</option>
+                                        <option value="remedy">Remedy</option>
+                                        <option value="easy_on_me">Easy On Me</option>
+                                        <option value="my_little_love">My Little Love</option>
+                                        <option value="daydreamers">Daydreamers</option>
+                                        <option value="first_love">First Love</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row-fav">
+                                <div class="labels">
+                                    <label for="dropdown-album" id="dropdown-album-label">Album:</label>
+                                </div>
+                                <div class="selection">
+                                    <select name="fav-album" id="dropdown-album">
+                                        <option disabled selected value>Select an option</option>
+                                        <option value="19">19</option>
+                                        <option value="21">21</option>
+                                        <option value="25">25</option>
+                                        <option value="30">30</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row-fav">
+                                <div class="labels">
+                                    <label for="love-adele">How much do you love Adele?</label>
+                                </div>
+                                <div class="selection">
+                                    <input class="level-of-love" type="radio" name="love-label" value="infinite"
+                                        id="infinite">
+                                    <label for="infinite">Infinite</label><br>
+                                    <input class="level-of-love" type="radio" name="love-label" value="infiniteX10"
+                                        id="infiniteX10">
+                                    <label for="infiniteX10">InfiniteX10</label><br>
+                                    <input class="level-of-love" type="radio" name="love-label"
+                                        value="infiniteXInfinite" id="infiniteXInfinite">
+                                    <label for="infiniteXInfinite">InfiniteXInfinite</label><br>
+                                </div>
+                            </div>
+                            <div class="row-fav">
+                                <div class="labels">
+                                    <label for="behavior" class="behavior">Which is your favorite Adele
+                                        behavior?</label>
+                                </div>
+                                <div class="selection">
+                                    <input class="behavior-label" id="introverted" type="checkbox" name="behavior"
+                                        value="introverted">
+                                    <label for="introverted">Introverted</label><br>
+                                    <input class="behavior-label" id="emotional" type="checkbox" name="behavior"
+                                        value="emotional">
+                                    <label for="emotional">Emotional</label><br>
+                                    <input class="behavior-label" id="vulnerability" type="checkbox" name="behavior"
+                                        value="vulnerability">
+                                    <label for="vulnerability">Vulnerability</labe><br>
+                                        <input class="behavior-label" id="relatable" type="checkbox" name="behavior"
+                                            value="relatable">
+                                        <label for="relatable">Relatable</label><br>
+                                        <input class="behavior-label" id="candid" type="checkbox" name="behavior"
+                                            value="candid">
+                                        <label for="candid">Candid</label><br>
+                                        <input class="behavior-label" id="genuine" type="checkbox" name="behavior"
+                                            value="genuine">
+                                        <label for="genuine">Genuine</label><br>
+                                </div>
+                            </div>
+                            <div class="row-fav">
+                                <div class="labels">
+                                    <label for="comments" id="comments">Why do you love Adele?</label>
+                                </div>
+                                <div class="selection">
+                                    <textarea name="message" id="comments" rows="5" cols="27"
+                                        placeholder="Share your reasons here..."></textarea>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="buttons">
+                        <input id="submit" type="submit" value="Submit">
+                        <input id="reset" type="reset" value="Reset">
+                    </div>
+                </form>
+            </div>
+            <div class="image-container">
+                <img src="https://i.pinimg.com/1200x/95/45/ec/9545ec0cc5a3d51359a8ccec967d9b57.jpg"
+                    alt="Adele Body Image 1" class="body-image">
+                <img src="https://i.pinimg.com/736x/24/b4/a2/24b4a223348ebd13b6f26ddea6307b5f.jpg"
+                    alt="Adele Body Image 2" class="body-image">
+            </div>
+        </main>
+    </div>
+    <footer id="footer">
+        <h2>Adele Laurie Blue Adkins, I WANT TO MARRY YOUuuuuuuuuuuuu......................... I LOVEEE YOUUUU SOOOO SOO MUCHHHHHHHHHHHHHHHHHHHHHHHH</h2>
+        <p class="footer-link">Created by <a id="contact" href="https://github.com/ajy-ocean" target="_blank">ajy-ocean</a></p>
+    </footer>
+</body>
+
+</html>
