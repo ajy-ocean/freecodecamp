@@ -31,6 +31,9 @@ Flexbox helps you design webpages that look 素晴らしい on any screen size! 
 📜 **[Nutrition Label Typography](https://codepen.io/ajy_ocean/full/MYaJGqX)**  
 Typography is the art of styling text to be 読みやすい and suit its purpose! In this quest, I built a nutrition label webpage, mastering how to style text, adjust line height, and position text using CSS for a clean and purposeful デザイン! 🖋️ _Text no jutsu!_
 
+❓ **[Accessible Quiz Webpage](https://codepen.io/ajy_ocean/full/gbagZbY)**  
+Accessibility makes webpages easy for すべての人 to use, including those with disabilities! In this quest, I built a quiz webpage, mastering アクセシビリティ tools like keyboard shortcuts, ARIA attributes, and design best practices to ensure everyone can join the fun! 🎯 _Inclusive no jutsu!_
+
 ## 🌠 Why This Repo is Legendary
 
 - **Epic Projects**: Each folder tells a tale of 創造性 and problem-solving! 🏯
