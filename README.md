@@ -25,6 +25,9 @@ A required プロジェクト for my certification! I built a survey form to col
 🖼️ **[Rothko-Style Art Technique](https://codepen.io/ajy_ocean/full/wBKgaWm)**  
 Every HTML element is a box with its own スペース and border—the Box Model! Using CSS, I created Rothko-style 長方形 art, blending creativity and precision like a master! 🎨 _Art no jutsu!_
 
+📸 **[Responsive Photo Gallery](https://codepen.io/ajy_ocean/full/YPyNxGo)**  
+Flexbox helps you design webpages that look 素晴らしい on any screen size! In this quest, I used Flexbox to build a responsive photo gallery webpage, arranging images with ninja-like precision for a flawless display! 📷 _Snap no jutsu!_
+
 ## 🌠 Why This Repo is Legendary
 
 - **Epic Projects**: Each folder tells a tale of 創造性 and problem-solving! 🏯
