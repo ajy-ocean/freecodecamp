@@ -28,6 +28,9 @@ Every HTML element is a box with its own スペース and border—the Box Model
 📸 **[Responsive Photo Gallery](https://codepen.io/ajy_ocean/full/YPyNxGo)**  
 Flexbox helps you design webpages that look 素晴らしい on any screen size! In this quest, I used Flexbox to build a responsive photo gallery webpage, arranging images with ninja-like precision for a flawless display! 📷 _Snap no jutsu!_
 
+📜 **[Nutrition Label Typography](https://codepen.io/ajy_ocean/full/MYaJGqX)**  
+Typography is the art of styling text to be 読みやすい and suit its purpose! In this quest, I built a nutrition label webpage, mastering how to style text, adjust line height, and position text using CSS for a clean and purposeful デザイン! 🖋️ _Text no jutsu!_
+
 ## 🌠 Why This Repo is Legendary
 
 - **Epic Projects**: Each folder tells a tale of 創造性 and problem-solving! 🏯
