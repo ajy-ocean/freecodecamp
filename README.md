@@ -34,6 +34,9 @@ Typography is the art of styling text to be 読みやすい and suit its purpose
 ❓ **[Accessible Quiz Webpage](https://codepen.io/ajy_ocean/full/gbagZbY)**  
 Accessibility makes webpages easy for すべての人 to use, including those with disabilities! In this quest, I built a quiz webpage, mastering アクセシビリティ tools like keyboard shortcuts, ARIA attributes, and design best practices to ensure everyone can join the fun! 🎯 _Inclusive no jutsu!_
 
+🎵 **[J. Cole Tribute Rhyme Scroll](https://codepen.io/ajy_ocean/full/QwjdRpx)**  
+A required プロジェクト for my certification! I crafted a tribute page to honor the legendary rapper J. Cole, a master of lyrical ストーリーテリング! Using HTML and CSS, I wove a responsive design that captures his soulful vibe and epic legacy. This page flows like a freestyle ビート! 🎤 _No role modelz, just code modelz!_
+
 ## 🌠 Why This Repo is Legendary
 
 - **Epic Projects**: Each folder tells a tale of 創造性 and problem-solving! 🏯
