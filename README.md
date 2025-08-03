@@ -37,6 +37,9 @@ Accessibility makes webpages easy for すべての人 to use, including those wi
 🎵 **[J. Cole Tribute Rhyme Scroll](https://codepen.io/ajy_ocean/full/QwjdRpx)**  
 A required プロジェクト for my certification! I crafted a tribute page to honor the legendary rapper J. Cole, a master of lyrical ストーリーテリング! Using HTML and CSS, I wove a responsive design that captures his soulful vibe and epic legacy. This page flows like a freestyle ビート! 🎤 _No role modelz, just code modelz!_
 
+⚖️ **[Balance Sheet Kage Bunshin](https://codepen.io/ajy_ocean/full/wBKJjoa)**  
+CSS pseudo selectors unlock the power to transform specific HTML elements! In this quest, I built a balance sheet, mastering hover effects and event triggers to bring dynamic 機能 to life. This page balances style and precision like a ninja’s blade! 🗡️ _Kage no jutsu!_
+
 ## 🌠 Why This Repo is Legendary
 
 - **Epic Projects**: Each folder tells a tale of 創造性 and problem-solving! 🏯
