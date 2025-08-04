@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>React Learning Guide</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="img">
+            <img id="logo" src="https://reactjs.org/logo-og.png" alt="React Logo">
+        </div>
+        <header>React Documentation</header>
+        <ul>
+            <a class="nav-link" href="#introduction" rel="internal">
+                <li>Introduction</li>
+            </a>
+            <a class="nav-link" href="#prerequisites" rel="internal">
+                <li>Prerequisites</li>
+            </a>
+            <a class="nav-link" href="#getting_started" rel="internal">
+                <li>Getting Started</li>
+            </a>
+            <a class="nav-link" href="#components" rel="internal">
+                <li>Components</li>
+            </a>
+            <a class="nav-link" href="#props_and_state" rel="internal">
+                <li>Props and State</li>
+            </a>
+            <a class="nav-link" href="#react_basics" rel="internal">
+                <li>React Basics</li>
+            </a>
+            <a class="nav-link" href="#jsx_syntax" rel="internal">
+                <li>JSX Syntax</li>
+            </a>
+            <a class="nav-link" href="#event_handling" rel="internal">
+                <li>Event Handling</li>
+            </a>
+            <a class="nav-link" href="#hooks" rel="internal">
+                <li>Hooks</li>
+            </a>
+            <a class="nav-link" href="#metadata" rel="internal">
+                <li>Metadata</li>
+            </a>
+            <a class="nav-link" href="#app_structure" rel="internal">
+                <li>App Structure</li>
+            </a>
+            <a class="nav-link" href="#styling_react" rel="internal">
+                <li>Styling React</li>
+            </a>
+            <a class="nav-link" href="#debugging_react" rel="internal">
+                <li>Debugging React</li>
+            </a>
+            <a class="nav-link" href="#reference" rel="internal">
+                <li>Reference</li>
+            </a>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="introduction">
+            <header>Introduction</header>
+            <article>
+                <p>React is a JavaScript library for building user interfaces, primarily for web applications. It is not
+                    a full framework but a library focused on creating reusable UI components. React allows developers
+                    to build interactive and dynamic web pages by breaking down the UI into modular pieces called
+                    components.</p>
+                <p>React is maintained by Meta and a community of developers. It renders UI efficiently using a virtual
+                    DOM, which updates only the parts of the page that change, improving performance.</p>
+                <p>React was first released in 2013, and its current stable version, as of 2025, is React 18, which
+                    introduced features like concurrent rendering and automatic batching.</p>
+            </article>
+        </section>
+        <section class="main-section" id="prerequisites">
+            <header>Prerequisites</header>
+            <article>
+                <p>You don’t need prior React knowledge to start learning, but familiarity with JavaScript (ES6+), HTML,
+                    and CSS is essential. You should also have Node.js installed and be comfortable using a code editor
+                    like VS Code.</p>
+            </article>
+        </section>
+        <section class="main-section" id="getting_started">
+            <header>Getting Started</header>
+            <article>
+                <p>To start a React project, you can use Create React App or Vite to set up a development environment
+                    quickly.</p>
+                <code id="main-code">
+                    npx create-react-app my-app
+                    cd my-app
+                    npm start
+                </code>
+                <p>
+                <h3>Example Explained</h3>
+                <ul>
+                    <li><code>npx create-react-app my-app</code> creates a new React project.</li>
+                    <li><code>cd my-app</code> navigates into the project folder.</li>
+                    <li><code>npm start</code> starts the development server.</li>
+                    <li>The default App component will render a simple webpage at <code>localhost:3000</code>.</li>
+                </ul>
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="components">
+            <header>Components</header>
+            <article>
+                <p>Components are the building blocks of React applications. They are reusable pieces of UI, defined as
+                    JavaScript functions or classes.</p>
+                <code>
+                    function Welcome() {
+                        return &lt;<span>h1</span>&gt;Hello, World!&lt;/<span>h1</span>&gt;;
+                    }
+                </code>
+                <p>
+                <ol>
+                    <li>A component is a function or class that returns JSX (a mix of JavaScript and HTML-like syntax).
+                    </li>
+                    <li>Components can be reused across your application.</li>
+                    <li>They must start with a capital letter to distinguish them from regular HTML elements.</li>
+                    <li>Components can be nested to build complex UIs.</li>
+                </ol>
+                <img id="element-img"
+                    src="https://cdn-blog.scalablepath.com/uploads/2023/07/react-component-example-1024x796.png"
+                    alt="React Component Example">
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="props_and_state">
+            <header>Props and State</header>
+            <article>
+                <p>Props (properties) are read-only data passed to components to customize their behavior or appearance.
+                </p>
+                <img id="element-att" src="https://miro.medium.com/v2/resize:fit:1358/1*zhtAJYkfl9s7XWzL2bMPpQ.png"
+                    alt="React Props Example">
+                <p>State is a local data storage within a component that can change over time, triggering re-renders.
+                </p>
+                <code>
+                    function Counter() {
+                        const [count, setCount] = React.useState(0);
+                        return (
+                            &lt;<span>div</span>&gt;
+                                &lt;<span>p</span>&gt;Count: {count}&lt;/<span>p</span>&gt;
+                                &lt;<span>button</span> onClick={() => setCount(count + 1)}&gt;Increment&lt;/<span>button</span>&gt;
+                            &lt;/<span>div</span>&gt;
+                        );
+                    }
+                </code>
+            </article>
+        </section>
+        <section class="main-section" id="react_basics">
+            <header>React Basics</header>
+            <article>
+                <p>React applications are built by combining components into a tree structure. Each component can have
+                    its own logic and rendering.</p>
+                <p>Key concepts include:
+                <ul>
+                    <li><code>JSX</code>: A syntax extension for JavaScript to write HTML-like code.</li>
+                    <li><code>Virtual DOM</code>: A lightweight copy of the DOM for efficient updates.</li>
+                    <li><code>Rendering</code>: React updates the DOM when state or props change.</li>
+                </ul>
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="jsx_syntax">
+            <header>JSX Syntax</header>
+            <article>
+                <p>JSX allows you to write HTML-like code in JavaScript. It’s transpiled to JavaScript by tools like
+                    Babel.</p>
+                <p>Special considerations:
+                    <code>&lt;</code>, <code>&gt;</code>, <code>&quot;</code>, <code>&apos;</code>, and
+                    <code>&amp;</code> are escaped in JSX. Use curly braces <code>{}</code> to embed JavaScript
+                    expressions.
+                </p>
+                <p>Visit <a href="https://reactjs.org/docs/introducing-jsx.html" target="_blank">React JSX Docs</a> for
+                    more details.</p>
+            </article>
+        </section>
+        <section class="main-section" id="event_handling">
+            <header>Event Handling</header>
+            <article>
+                <p>React handles events using camelCase attributes like <code>onClick</code> instead of HTML’s lowercase
+                    <code>onclick</code>.
+                </p>
+                <p>Example:
+                    <code>
+                        &lt;<span>button</span> onClick={() => alert('Clicked!')}&gt;Click me&lt;/<span>button</span>&gt;
+                    </code>
+                </p>
+                <p>The event handler is a JavaScript function, and you pass it directly to the attribute.</p>
+            </article>
+        </section>
+        <section class="main-section" id="hooks">
+            <header>Hooks</header>
+            <article>
+                <p>Hooks are functions that let you use state and other React features in functional components.
+                    Introduced in React 16.8, they replace class-based state management.</p>
+                <p>Common hooks:
+                    <code>useState</code>, <code>useEffect</code>, <code>useContext</code>.
+                </p>
+                <p>Example:
+                    <code>
+                        const [value, setValue] = React.useState('');
+                    </code>
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="metadata">
+            <header>Metadata</header>
+            <article>
+                <p>The <code>&lt;head&gt;</code> of an HTML document in a React app contains metadata like the title and
+                    links to scripts or stylesheets. React itself doesn’t manage this directly, but tools like React
+                    Helmet can help.</p>
+                <p>Example:
+                    <code>&lt;<span>title</span>&gt;My React App&lt;/<span>title</span>&gt;</code>
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="app_structure">
+            <header>App Structure</header>
+            <article>
+                <p>React apps are structured as a tree of components. Common elements include:</p>
+                <p>
+                    <code>&lt;<span>App</span>&gt;</code>
+                    <li>Root component</li>
+                    <code>&lt;<span>Header</span>&gt;</code>
+                    <li>Header component</li>
+                    <code>&lt;<span>Main</span>&gt;</code>
+                    <li>Main content</li>
+                    <code>&lt;<span>Footer</span>&gt;</code>
+                    <li>Footer component</li>
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="styling_react">
+            <header>Styling React</header>
+            <article>
+                <p>React components can be styled using CSS, inline styles, or libraries like Tailwind CSS or
+                    styled-components.</p>
+                <p>Example of inline styles:
+                    <code>
+                        &lt;<span>div</span> style={ { backgroundColor: 'blue' } }&gt;Styled Div&lt;/<span>div</span>&gt;
+                    </code>
+                </p>
+                <p>CSS files or modules are recommended for larger projects to keep styles organized.</p>
+            </article>
+        </section>
+        <section class="main-section" id="debugging_react">
+            <header>Debugging React</header>
+            <article>
+                <p>React provides tools like React Developer Tools (a browser extension) to inspect component
+                    hierarchies and state. Errors often arise from incorrect state updates or prop mismatches.</p>
+                <p>Common issues:
+                <ul>
+                    <li>Key errors in lists (always provide a unique <code>key</code> prop).</li>
+                    <li>State not updating (use immutable updates with <code>setState</code>).</li>
+                </ul>
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="reference">
+            <header>Reference</header>
+            <article>
+                <p><a href="https://reactjs.org/docs/getting-started.html" target="_blank">React Official Docs</a></p>
+                <p><a href="https://www.w3schools.com/react/" target="_blank">W3Schools React Tutorial</a></p>
+                <p><a href="https://beta.reactjs.org/learn" target="_blank">React Beta Docs</a></p>
+            </article>
+        </section>
+        <footer id="contact">
+            <p id="footer-text">
+                Created by <a id="contact" target="_blank" href="https://github.com/ajy-ocean">ajy-ocean</a>
+            </p>
+        </footer>
+    </main>
+</body>
+
+</html>
