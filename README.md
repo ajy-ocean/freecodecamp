@@ -1,6 +1,8 @@
 # 🌸 Code Ninja の Epic freeCodeCamp Web Dev Quest! ⚡️💻
 
-🎉 **Konnichiwa, Code Shinobi!** 私の _freeCodeCamp Practice Repository_ へようこそ！This is where I embark on an anime-inspired 冒険 to master the art of web development! 🌟 Wielding the powers of **HTML**, **CSS**, **JavaScript**, and more, I’m slicing through challenges like a true コードの侍, crafting epic, responsive, and dynamic web apps! 🗡️✨
+🎉 **Konnichiwa, Code Shinobi!** 私の _freeCodeCamp Practice Repository_ へようこそ！This is where I embark on an anime-inspired 冒険 to master the art of web development through the legendary **Responsive Web Design Certification**! 🌟
+
+In this sacred 道場 of code, I wield the ancient powers of **HTML** (Hypertext Markup Language) to forge webpage 構造 and **CSS** (Cascading Style Sheets) to paint vibrant デザイン! 🖌️ My journey begins with crafting a _neko_ photo app to master the basics, then evolves into wielding modern techniques like CSS variables to create a penguin masterpiece, and embracing アクセシビリティ best practices to build an inclusive quiz site. The saga culminates in forging responsive webpages that adapt to any screen size, using **Flexbox** for a breathtaking photo gallery and **CSS Grid** for a dynamic magazine article layout! 🗡️✨
 
 Each folder in this repo is a _ninja no scroll_ packed with hands-on プロジェクト and exercises from the legendary freeCodeCamp curriculum! 📜 From pixel-perfect layouts to mind-blowing interactivity, my 旅 is a saga of battles won and skills forged in the 炎 of code! 🔥
 
