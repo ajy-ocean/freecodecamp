@@ -1,0 +1,277 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #fafafa;
+        color: #121212;
+    }
+
+    #header {
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .header-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #header-img {
+        height: 70px;
+    }
+
+    #nav-bar ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-link {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 1.1em;
+    }
+
+    .nav-link:hover {
+        background-color: #a49b96;
+    }
+
+    #hero {
+        text-align: center;
+        padding: 100px 20px;
+        color: black;
+    }
+
+    #hero h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        margin-top: -50px;
+    }
+
+    #form {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    #email {
+        padding: 10px;
+        width: 250px;
+        font-size: 1em;
+        background-color: #fafafa;
+        color: #121212;
+        border: 1px solid #a49b96;
+    }
+
+    #submit {
+        padding: 10px 20px;
+        background-color: #49986b;
+        color: #fafafa;
+        border: none;
+        cursor: pointer;
+    }
+
+    #submit:hover {
+        background-color: #3b7a57;
+    }
+
+    #features {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 0 20px;
+        margin-top: -80px;
+    }
+
+    .feature {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .feature h2 {
+        font-size: 1.8em;
+        color: #49986b;
+    }
+
+    #video {
+        display: block;
+        margin: 60px auto;
+        width: 800px;
+        height: 450px;
+    }
+
+    #tracklist {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 0 20px;
+        margin-top: -80px;
+    }
+
+    #tracklist h2 {
+        font-size: 1.8em;
+        color: #49986b;
+        margin-bottom: 20px;
+    }
+
+    .tracklist-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+        padding: 0;
+    }
+
+    .track {
+        background-color: #fafafa;
+        border: 1px solid #a49b96;
+        padding: 15px;
+        text-align: center;
+        font-size: 1.1em;
+        color: #121212;
+        border-radius: 5px;
+    }
+
+    .track:hover {
+        background-color: #49986b;
+        color: #fafafa;
+    }
+
+    #pricing {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin-top: -30px;
+    }
+
+    .product {
+        background-color: #fafafa;
+        border: 1px solid #a49b96;
+        padding: 20px;
+        text-align: center;
+        width: 250px;
+    }
+
+    .product h2 {
+        font-size: 1.5em;
+        color: #121212;
+    }
+
+    .price {
+        font-size: 2em;
+        color: #49986b;
+        margin: 10px 0;
+    }
+
+    .product ul {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+    }
+
+    .product li {
+        margin: 10px 0;
+        color: #121212;
+    }
+
+    .product button {
+        padding: 10px 20px;
+        background-color: #49986b;
+        color: #fafafa;
+        border: none;
+        cursor: pointer;
+    }
+
+    .product button:hover {
+        background-color: #3b7a57;
+    }
+
+    #footer {
+        background-color: #121212;
+        color: #fafafa;
+        padding: 10px 10px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .footer-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .footer-section {
+        margin: 20px;
+    }
+
+    .footer-section h3 {
+        font-size: 1.3em;
+        color: #49986b;
+        margin-bottom: 10px;
+    }
+
+    .footer-section p {
+        margin: 5px 0;
+    }
+
+    .footer-link {
+        color: #a49b96;
+        text-decoration: none;
+    }
+
+    .footer-link:hover {
+        color: #fafafa;
+    }
+
+    .footer-copy {
+        margin-top: 20px;
+        font-size: 0.9em;
+        color: #a49b96;
+    }
+
+    @media (max-width: 600px) {
+        #header {
+            padding: 10px;
+        }
+
+        .header-content {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #nav-bar ul {
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .nav-link {
+            display: block;
+            text-align: center;
+        }
+
+        #pricing {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-content {
+            flex-direction: column;
+        }
+
+        .tracklist-grid {
+            grid-template-columns: 1fr;
+        }
+
+        #video {
+            width: 100%;
+            height: auto;
+        }
+    }
