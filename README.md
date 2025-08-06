@@ -11,7 +11,7 @@ Check out my latest 勝利:
 HTML tags give webpages their 構造, letting you add 写真, buttons, and more! In this quest, I built a _neko_ photo app, mastering common HTML tags and unleashing my inner コード仙人! 🪄 _Nyan-pasu!_
 
 🍽️ **[Cafe Menu no Jutsu](https://codepen.io/ajy_ocean/full/jEbMwvw)**  
-CSS tells browsers how to style your webpage—色, fonts, sizes, you name it! I designed a カフェ menu page, weaving responsive designs and dynamic 機能 like a true web dev ninja! ⚡ Feel the コードの力!
+CSS tells browsers how to style your webpage—色, fonts, sizes, you name it! I designed a カフェ menu page, weaving responsive designs and dynamic 機能 like a true web dev ninja! ⚡ _Feel the コードの力!_
 
 🎨 **[Color Marker Ninpou](https://codepen.io/ajy_ocean/full/KwdapqJ)**  
 Choosing epic 色 can level up your webpage’s aesthetic! I crafted a set of colored markers, learning how to set color values and pair them like an anime アーティスト’s palette! 🌈 _Kira-kira!_
@@ -39,6 +39,33 @@ A required プロジェクト for my certification! I crafted a tribute page to 
 
 ⚖️ **[Balance Sheet Kage Bunshin](https://codepen.io/ajy_ocean/full/wBKJjoa)**  
 CSS pseudo selectors unlock the power to transform specific HTML elements! In this quest, I built a balance sheet, mastering hover effects and event triggers to bring dynamic 機能 to life. This page balances style and precision like a ninja’s blade! 🗡️ _Kage no jutsu!_
+
+🖌️ **[Cat Painting Positioning Technique](https://codepen.io/ajy_ocean/full/ByoWxwo)**  
+Mastering CSS positioning is the key to crafting visually stunning and responsive web layouts! In this quest, I painted a _neko_ masterpiece, wielding absolute positioning, z-index sorcery, and transform properties like a true コードの画家! 🖼️ _Neko no jutsu!_
+
+🎹 **[Responsive Piano Harmony](https://codepen.io/ajy_ocean/full/empRgXN)**  
+Responsive design ensures your webpage sings on any screen size! In this quest, I crafted a piano webpage, mastering CSS media queries and pseudo selectors to create a harmonious and dynamic デザイン! 🎶 _Melody no jutsu!_
+
+📚 **[Technical Documentation Scroll](https://codepen.io/ajy_ocean/full/raOwjgx)**  
+A required プロジェクト for my certification! I forged a technical documentation page to serve as a sacred 巻物 of knowledge. With clean HTML and CSS, this page guides users through complex topics with ninja-like clarity! 📜 _Wisdom no jutsu!_
+
+🏙️ **[City Skyline CSS Variables](https://codepen.io/ajy_ocean/full/wBKeJBO)**  
+CSS variables are the ninja tools for organizing and reusing styles! In this quest, I built a breathtaking city skyline, mastering CSS variables to craft a reusable and vibrant デザイン! 🌆 _Skyline no jutsu!_
+
+📰 **[Magazine Article Grid Mastery](https://codepen.io/ajy_ocean/full/xbwrqwd)**  
+CSS Grid is the ultimate weapon for controlling rows and columns in webpage design! In this quest, I crafted a magazine article layout, mastering grid rows and columns to create a visually epic ページ! 🗞️ _Grid no jutsu!_
+
+🛍️ **[Product Landing Page Shuriken](https://codepen.io/ajy_ocean/full/pvjwebJ)**  
+A required プロジェクト for my certification! I forged a product landing page to market a legendary アイテム, weaving HTML and CSS to create a responsive and captivating design that draws in visitors like a ninja’s charm! 🛒 _Market no jutsu!_
+
+🎡 **[Ferris Wheel Animation Spin](https://codepen.io/ajy_ocean/full/LEpLWbe)**  
+CSS animations bring your webpage to life! In this quest, I built a spinning Ferris wheel, mastering CSS animation techniques to transform elements, adjust speed, and create an engaging スペクタクル! 🎢 _Spin no jutsu!_
+
+🐧 **[Penguin Transform Technique](https://codepen.io/ajy_ocean/full/ZYbyeep)**  
+CSS transforms let you rotate, scale, and shape HTML elements into stunning designs! In this quest, I crafted an adorable penguin, using transforms to position and animate its parts, complete with a dynamic background! 🐧 _Transform no jutsu!_
+
+🌟 **[Personal Portfolio Ninja Scroll](https://codepen.io/ajy_ocean/full/OPygpmG)**  
+A required プロジェクト for my certification! I forged a personal portfolio webpage to showcase my coding 冒険! With HTML and CSS, this page shines as a testament to my skills and ninja spirit! 📜 _Portfolio no jutsu!_
 
 ## 🌠 Why This Repo is Legendary
 
