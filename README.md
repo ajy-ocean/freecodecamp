@@ -69,6 +69,9 @@ CSS transforms let you rotate, scale, and shape HTML elements into stunning desi
 🌟 **[Personal Portfolio Ninja Scroll](https://codepen.io/ajy_ocean/full/OPygpmG)**  
 A required プロジェクト for my certification! I forged a personal portfolio webpage to showcase my coding 冒険! With HTML and CSS, this page shines as a testament to my skills and ninja spirit! 📜 _Portfolio no jutsu!_
 
+🛡️ **[Role Playing Ninja](https://codepen.io/ajy_ocean/full/XJXbVqQ)**  
+JavaScript powers interactive ウェブ! I coded an epic Role Playing Game, mastering arrays, strings, objects, functions, loops, and if/else, infused with anime 戦い and shinobi クエスト! 🎲⚔️ _Quest no jutsu!_
+
 ## 🌠 Why This Repo is Legendary
 
 - **Epic Projects**: Each folder tells a tale of 創造性 and problem-solving! 🏯
